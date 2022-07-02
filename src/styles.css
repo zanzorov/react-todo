@@ -18,7 +18,12 @@
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   padding-left: 15px;
+  outline: none;
 }
+.form input:focus {
+  border: 2px solid blue;
+}
+
 .form button {
   background-color: blue;
   color: white;
@@ -30,9 +35,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*
-.todos {}
-*/
+.todos {
+  margin-top: 10px;
+}
 
 .todo {
   display: flex;
